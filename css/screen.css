@@ -2,6 +2,24 @@
   #FONTS
 \*------------------------------------*/
 
+@fontface {
+    font-family: "Clear Sans";
+    weight: 200;
+    src: url("../fonts/ClearSans-Light-webfont.woff") format("woff");
+}
+
+@fontface {
+    font-family: "Clear Sans";
+    weight: 400;
+    src: url("../fonts/ClearSans-Regular-webfont.woff") format("woff");
+}
+
+@fontface {
+    font-family: "Clear Sans";
+    weight: 600;
+    src: url("../fonts/ClearSans-Bold-webfont.woff") format("woff");
+}
+
 /*------------------------------------*\
   #GENERIC
 \*------------------------------------*/
@@ -13,9 +31,10 @@
 */
 
 html {
-    font-size: 16px;
-    line-height: 24px;
-    font-family: Helvetica, arial, sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    font-family: "Clear Sans", Helvetica, arial, sans-serif;
+    font-weight: 200;
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
