@@ -399,6 +399,36 @@ a:focus {
     max-width: 71em;
 }
 
+.c-text-item {
+    display: flex;
+}
+
+.c-text-desc {
+    width: 50%;
+    max-width: 32em;
+    margin-top: auto;
+    margin-right: auto;
+}
+
+.c-text-item-reversed {
+    flex-direction: row-reverse;
+}
+
+.c-text-img {
+    width: 50%;
+    margin-top: auto;
+}
+
+@media(min-width: 768px) {
+    .c-text-desc-responsive {
+        width: 40%;
+    }
+
+    .c-text-img-responsive {
+        width: 60%;
+    }
+}
+
 .c-nav {
     display: flex;
     flex-direction: column;
@@ -461,6 +491,7 @@ a:focus {
 */
 
 .u-color-secondary-base {
+
 }
 
 /*
