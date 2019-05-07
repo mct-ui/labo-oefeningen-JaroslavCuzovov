@@ -390,9 +390,35 @@ a:focus {
   #COMPONENTS
 \*------------------------------------*/
 
+.c-btn-colored {
+    display: inline-block;
+    line-height: 24px;
+    padding: 16px 32px;
+    background-image: linear-gradient(to right, #033BAA, #0653FA);
+    box-shadow: 0 0 4px #0653FA;
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    border-color: #0653FA;
+    border-width: thin;
+    border-style: solid;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    text-align: center;
+    background-size: 200% auto;
+}
+
+.c-btn-colored:active,
+.c-btn-colored:hover,
+.c-btn-colored:focus {
+    background-position: right center;
+    color: white;
+}
+
 .c-logo {
     height: 32px;
-    margin-bottom: 32px;
+    align-self: center; /* margin-bottom: 32px removed for alignment */
 }
 
 .c-title {
@@ -435,6 +461,7 @@ a:focus {
     flex-wrap: nowrap;
     text-transform: uppercase;
     letter-spacing: 1px;
+
 }
 
 .c-nav__link {
@@ -442,6 +469,7 @@ a:focus {
     color: #DBEDFF;
     text-decoration: none;
     margin: 8px 0;
+    align-self: center;
 }
 
 .c-nav__link:visited {
