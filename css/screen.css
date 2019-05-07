@@ -39,7 +39,7 @@ html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 
-    background: linear-gradient(to bottom right, #fff, #061649);
+    background: linear-gradient(to bottom right, #0A257D, #061649);
     background-attachment: fixed; /* fixed to screen instead of taking whole page size into account */
     color: white;
 }
@@ -389,6 +389,10 @@ a:focus {
 /*------------------------------------*\
   #COMPONENTS
 \*------------------------------------*/
+
+.c-logo {
+    height: 32px;
+}
 
 /*------------------------------------*\
   #UTILITIES
