@@ -38,6 +38,10 @@ html {
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
+    background: linear-gradient(to bottom right, #fff, #061649);
+    background-attachment: fixed; /* fixed to screen instead of taking whole page size into account */
+    color: white;
 }
 
 *,
