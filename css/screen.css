@@ -390,6 +390,28 @@ a:focus {
   #COMPONENTS
 \*------------------------------------*/
 
+.c-intro-img {
+    position: absolute;
+}
+
+.c-intro-img-cover {
+    position: relative;
+    display: inline-block;
+
+    color: black;
+    background-color: white;
+
+    padding: 8px 8px;
+    text-align: right;
+    border-right-style: solid;
+    border-color: #0044ee;
+    border-width: thick;
+    width: 20%;
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-left: 83%;
+}
+
 .c-btn-colored {
     display: inline-block;
     line-height: 24px;
